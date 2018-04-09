@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-table.component.css']
 })
 export class Bs4TableComponent implements OnInit {
+  pageTitle="Example of a Table and Pagination";
 
   constructor() { }
 

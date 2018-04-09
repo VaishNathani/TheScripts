@@ -1,26 +1,30 @@
-<div class="card bg-dark text-white">
-    <img class="card-img" src="http://lorempixel.com/900/200/sports/">
+
+<h3 class="font-weight-bold text-center m-b-1">{{ pageTitle }}</h3>
+<p class="font-weight-bold m-b-0">Example of a Card with Image Overlay</p>
+<div class="card bg-dark text-white">    
+    <img class="card-img" src="../../assets/images/sunset.jpg" width="900px" height="300px">
     <div class="card-img-overlay">
         <h4 class="card-title">Building Open, Connected Communities of Health</h4>
         <p class="card-text">Building Open, Connected Communities of Health. This communities are Interoperable communities of Health</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
-</div>
+  </div>   
 
-<br> <br> <br>
+<br> <br>
+<p class="font-weight-bold m-b-0">Example of a Card with Navigation Links</p>
 
 
-  <div class="card">
+  <div class="card ">
       <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" [routerLink]="['/Form']" routerLinkActive="active">Forms</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link"  [routerLink]="['/Table']" routerLinkActive="active">Tables</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
+              <a class="nav-link" [routerLink]="['/ListGroups']" routerLinkActive="active">Lists</a>
           </li>
           </ul>
       </div>
@@ -28,10 +32,97 @@
           <h4 class="card-title">
                Giving back, to our community and to our world</h4>
           <p class="card-text text-dark">Our goal is to consistently raise awareness about issues across the globe. To that end, we give our team the tools and time to make a significant impact on causes close to their hearts..</p>
-          <a href="#" class="btn btn-primary text-dark">Read More</a>
+          <a href="#" class="btn btn-dark text-light">Read More</a>
       </div>
-  </div>
-
-    
+  </div>    
     
     <br><br>
+
+    <p class="font-weight-bold m-b-0">Example of a Card with header, footer, center</p>
+    <div class="card text-center">
+        <div class="card-header">
+            Market solutions
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Hospitals & Health Systems</h4>
+            <p class="card-text">Madonna Rehabilitation Hospitals improves patient access to high quality rehabilitation care
+                University Health System puts integrated solutions to work for safer patient care</p>
+            <a href="#" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 Days Ago
+        </div>
+    </div>
+    <br><br>
+    <p class="font-weight-bold m-b-0">Example of a different types of Cards, observe the slight variations in each..</p>
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top img-fluid" src="../../assets/images/winning.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h4 class="card-title">Hospitals & Health Systems</h4>
+            <p class="card-text">Madonna Rehabilitation Hospitals improves patient access to high quality rehabilitation care
+                University Health System puts integrated solutions to work for safer patient care</p>
+            </div>
+        </div>
+        <div class="card p-3">
+            <blockquote class="card-body card-bodyquote">
+            <p>Get the immediate support you need from Allscripts. Find the right support team for your issue with our list of phone numbers and direct service lines.</p>
+            <footer>
+                <small class="text-muted">
+                    2 Days Ago
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <img class="card-img-top img-fluid" src="../../assets/images/person.jpg" alt="Card image cap">
+            <div class="card-body">
+            <h4 class="card-title">Physicians & Community Practices</h4>
+            <p class="card-text">Family Practice Associates stays competitive – and independent – with strong financial performance
+                Coastal Carolina Health Care delivers high quality, effective care through its ACO</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card card-inverse card-primary p-3 text-center">
+            <blockquote class="card-bodyquote">
+            <p>Our innovation marketplace connects you instantly with certified third-party apps designed to help you increase productivity, deliver high-quality care and seamlessly integrate medical devices.</p>
+            <footer>
+                <small>
+                    2 Days Ago
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card text-center">
+            <div class="card-body">
+            <h4 class="card-title">Support & Resources</h4>
+            <p class="card-text">FExplore all of the resources we have to help you get the support you need. You’ll find everything from our innovative Allscripts Application Store, to the Allscripts Central login portal, to contact information for troubleshooting any issue.
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img img-fluid" src="../../assets/images/home-office.jpg" alt="Card image">
+        </div>
+        <div class="card p-3 text-right">
+            <blockquote class="card-bodyquote">
+            <p>Fraser Health Authority puts patient data in one comprehensive record for 2,600 regional physicians</p>
+            <footer>
+                <small class="text-muted">
+                    2 Days Ago
+                </small>
+            </footer>
+            </blockquote>
+        </div>
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title">Allscripts Central</h4>
+            <p class="card-text">Log in to our client support portal to access:
+
+                Account Information. Get immediate access to your information and control over your account details.
+                ClientConnect. Allscripts online community, where you can share knowledge and collaborate with peers.
+                Learning Center. An all-access area to enrich outcomes and experiences with Allscripts solutions.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        </div>

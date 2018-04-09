@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-list-groups.component.css']
 })
 export class Bs4ListGroupsComponent implements OnInit {
+  pageTitle="Example of a List";
 
   constructor() { }
 

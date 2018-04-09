@@ -5,7 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @Component({
  
   template: `
-    <h2>Coming Soon<h2>
+    <h2 class="text-center m-t-5">Coming Soon<h2>
   `
 })
 export class ComingSoonComponent {}

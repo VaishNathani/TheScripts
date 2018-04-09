@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-form-inputgroup.component.css']
 })
 export class Bs4FormInputgroupComponent implements OnInit {
+  pageTitle="Example of an Input Groups";
 
   constructor() { }
 

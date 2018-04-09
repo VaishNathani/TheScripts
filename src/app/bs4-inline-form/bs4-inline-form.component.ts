@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-inline-form.component.css']
 })
 export class Bs4InlineFormComponent implements OnInit {
+  pageTitle="Example of an Inline Form";
 
   constructor() { }
 

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-form.component.css']
 })
 export class Bs4FormComponent implements OnInit {
+  pageTitle="Example of a typical form and its Inputs";
 
   constructor() { }
 

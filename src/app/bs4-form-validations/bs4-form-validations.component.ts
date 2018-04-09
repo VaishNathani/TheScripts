@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-form-validations.component.css']
 })
 export class Bs4FormValidationsComponent implements OnInit {
+  pageTitle="Example of an Validations, progress bars, animated progress bars";
 
   constructor() { }
 

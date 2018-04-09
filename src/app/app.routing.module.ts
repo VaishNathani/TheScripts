@@ -15,7 +15,7 @@ import { ErrorComponent } from './error.component';
 import { ComingSoonComponent } from './ComingSoon.component';
 
 const appRoutes: Routes = [
-  { path: 'App', component: AppComponent },
+  { path: 'App', component:  Bs4CardsComponent },
   { path: 'Table',  component:  Bs4TableComponent},      
   { path: 'Form',   component:  Bs4FormComponent}, 
   { path: 'InlineForm',   component:  Bs4InlineFormComponent}, 
@@ -24,7 +24,7 @@ const appRoutes: Routes = [
   { path: 'Cards',   component:  Bs4CardsComponent},
   { path: 'Grid',   component:  ComingSoonComponent}, 
   { path: 'ListGroups',   component:  Bs4ListGroupsComponent},  
-  { path: '',   redirectTo: '/cards',  pathMatch: 'full' }
+  { path: '',   redirectTo: '/Cards',  pathMatch: 'full' }
 
 ];
 

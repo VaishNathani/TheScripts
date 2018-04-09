@@ -1,11 +1,31 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-secondary mb-3">
+<nav class="navbar navbar-expand-sm navbar-dark bg-warning text-light mb-3">
+    <span><img src="../../assets/images/planet.png" width="50px" height="50px" ></span>
+    <a class="navbar-brand text-dark font-weight-bold text-font-size-lg m-l-10" href="#">TheScripts</a>
     <div class="container">
-      
-      <a class="navbar-brand" href="#">AllScripts</a>
-          <ul class="navbar-nav">
-            
+         <ul class="navbar-nav text-dark">            
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown">Country</a>
+                  <div class="dropdown-menu">
+                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">Australia</a>
+                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">Canada</a>
+                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">United Kingdom</a>
+                    <a  [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">United States</a>  
+                  </div>
+                </li>         
+              
+          </ul>
+          <form class="form-inline my-1 my-lg-0">
+              <input type="text" class="form-control mr-sm-2" placeholder="Search">
+              <button class="btn btn-dark my-2 my-sm-0">Search</button>
+            </form>         
+      </div>
+</nav>
+<nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+    <div class="container">
+        <a class="navbar-brand text-dark font-weight-normal text-font-size-md m-l-10" href="#">{{ pageTitle }}</a>
+           <ul class="navbar-nav">            
               <li class="nav-item">
-                  <a class="nav-link" [routerLink]="['/Table']" routerLinkActive="active">Table</a>
+                  <a class="nav-link" [routerLink]="['/Table']" routerLinkActive="active">Tables</a>
               </li>
               <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Forms</a>
@@ -17,7 +37,7 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a [routerLink]="['/ListGroups']" routerLinkActive="active" class="nav-link">List</a>
+                    <a [routerLink]="['/ListGroups']" routerLinkActive="active" class="nav-link">Lists</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" [routerLink]="['/Cards']" routerLinkActive="active">Cards</a>

@@ -5,7 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @Component({
  
   template: `
-    <h2>Page not found<h2>
+    <h2 class="text-center m-t-5">Page not found<h2>
   `
 })
 export class ErrorComponent {}
