@@ -35,19 +35,19 @@
             <legend class="text-secondary font-italic font-weight-bold">What are you using this service for?</legend>
             <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" value="option1" checked>
+                  <input type="radio" class="form-check-input" value="Business" checked>
                   Personal
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" value="option1" checked>
+                  <input type="radio" class="form-check-input" value="Corporate" checked>
                   Commercial Use
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                  <input type="radio" class="form-check-input" value="option1"checked>
+                  <input type="radio" class="form-check-input" value="Personal" checked>
                   Testing
               </label>
             </div>
@@ -60,6 +60,6 @@
         </div>
         <p></p>
         <p></p>
-        <button class="btn btn-secondary" type="submit">Submit</button>
+        <button class="btn btn-secondary" type="submit" [routerLink]="['/Form']">Submit</button>
     </form>
   </div>

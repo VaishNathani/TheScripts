@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-warning text-light mb-3">
     <span><img src="../../assets/images/planet.png" width="50px" height="50px" ></span>
-    <a class="navbar-brand text-dark font-weight-bold text-font-size-lg m-l-10" href="#">TheScripts</a>
+    <a class="navbar-brand text-dark font-weight-bold text-font-size-lg m-l-10" [routerLink]="['/Cards']" >TheScripts</a>
     <div class="container">
          <ul class="navbar-nav text-dark">            
               <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown">Country</a>
                   <div class="dropdown-menu">
-                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">Australia</a>
-                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">Canada</a>
-                    <a [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">United Kingdom</a>
-                    <a  [routerLink]="['/App']" routerLinkActive="active" class="dropdown-item">United States</a>  
+                    <a [routerLink]="['/Cards']"  class="dropdown-item">Australia</a>
+                    <a [routerLink]="['/Cards']"  class="dropdown-item">Canada</a>
+                    <a [routerLink]="['/Cards']"  class="dropdown-item">United Kingdom</a>
+                    <a  [routerLink]="['/Cards']"  class="dropdown-item">United States</a>  
                   </div>
                 </li>         
               
