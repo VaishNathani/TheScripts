@@ -1,5 +1,4 @@
-import { AppRoutingModule } from './app.routing.module';
-import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 
@@ -12,30 +11,29 @@ import { Bs4InlineFormComponent } from './bs4-inline-form/bs4-inline-form.compon
 import { Bs4FormValidationsComponent } from './bs4-form-validations/bs4-form-validations.component';
 import { Bs4FormInputgroupComponent } from './bs4-form-inputgroup/bs4-form-inputgroup.component';
 import { Bs4ListGroupsComponent } from './bs4-list-groups/bs4-list-groups.component';
-import { RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './error.component';
 import { ComingSoonComponent } from './ComingSoon.component';
 
+const appRoutes: Routes = [
+  { path: 'App', component: AppComponent },
+  { path: 'Table',  component:  Bs4TableComponent},      
+  { path: 'Form',   component:  Bs4FormComponent}, 
+  { path: 'InlineForm',   component:  Bs4InlineFormComponent}, 
+  { path: 'FormValidations',   component:  Bs4FormValidationsComponent},
+  { path: 'FormInputGroup',   component:  Bs4FormInputgroupComponent},
+  { path: 'Cards',   component:  Bs4CardsComponent},
+  { path: 'Grid',   component:  ComingSoonComponent}, 
+  { path: 'ListGroups',   component:  Bs4ListGroupsComponent},  
+  { path: '',   redirectTo: '/cards',  pathMatch: 'full' }
+
+];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    Bs4TableComponent,
-    Bs4GridComponent,
-    Bs4CardsComponent,
-    Bs4FormComponent,
-    Bs4InlineFormComponent,
-    Bs4FormValidationsComponent,
-    Bs4FormInputgroupComponent,
-    Bs4ListGroupsComponent,
-    ErrorComponent,
-    ComingSoonComponent
-  ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  exports: [
+    RouterModule
+  ]
 })
-export class AppModule { }
+export class AppRoutingModule { }
