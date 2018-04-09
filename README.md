@@ -4,6 +4,8 @@ Navbars with drop downs,
 Tables and Pagination,
 Forms,
 Validations,
+dismissable validation message box,
 Progress bars,
+animated progress bars,  
 Lists and badges. 
 more features of bootstrap 4 to come soon...
