@@ -9,12 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico",
-        "planet.PNG",
-        "sunset.JPG",
-        "home-office.JPG",
-        "person.JPG",
-        "winning.JPG"
+        "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
