@@ -10,11 +10,11 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "planet.png",
-        "sunset.jpg",
-        "home-office.jpg",
-        "person.jpg",
-        "winning.jpg"
+        "planet.PNG",
+        "sunset.JPG",
+        "home-office.JPG",
+        "person.JPG",
+        "winning.JPG"
       ],
       "index": "index.html",
       "main": "main.ts",
