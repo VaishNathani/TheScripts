@@ -2,7 +2,7 @@
 <h3 class="font-weight-bold text-center m-b-1">{{ pageTitle }}</h3>
 <p class="font-weight-bold m-b-0">Example of a Card with Image Overlay</p>
 <div class="card bg-dark text-white">    
-    <img class="card-img" src="../../sunset.JPG" width="900px" height="300px">
+    <img class="card-img" src="../../sunset.jpg" width="900px" height="300px">
     <div class="card-img-overlay">
         <h4 class="card-title">Building Open, Connected Communities of Health</h4>
         <p class="card-text">Building Open, Connected Communities of Health. This communities are Interoperable communities of Health</p>
@@ -11,32 +11,6 @@
   </div>   
 
 <br> <br>
-<p class="font-weight-bold m-b-0">Example of a Card with Navigation Links</p>
-
-
-  <div class="card ">
-      <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-          <li class="nav-item">
-              <a class="nav-link active" [routerLink]="['/Form']" routerLinkActive="active">Forms</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link"  [routerLink]="['/Table']" routerLinkActive="active">Tables</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/ListGroups']" routerLinkActive="active">Lists</a>
-          </li>
-          </ul>
-      </div>
-      <div class="card-body">
-          <h4 class="card-title">
-               Giving back, to our community and to our world</h4>
-          <p class="card-text text-dark">Our goal is to consistently raise awareness about issues across the globe. To that end, we give our team the tools and time to make a significant impact on causes close to their hearts..</p>
-          <a [routerLink]="['/Cards']" class="btn btn-dark text-light">Read More</a>
-      </div>
-  </div>    
-    
-    <br><br>
 
     <p class="font-weight-bold m-b-0">Example of a Card with header, footer, center</p>
     <div class="card text-center">
@@ -57,7 +31,7 @@
     <p class="font-weight-bold m-b-0">Example of a different types of Cards, observe the slight variations in each..</p>
     <div class="card-columns">
         <div class="card">
-            <img class="card-img-top img-fluid" src="../../winning.JPG" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="../../winning.jpg" alt="Card image cap">
             <div class="card-body">
             <h4 class="card-title">Hospitals & Health Systems</h4>
             <p class="card-text">Madonna Rehabilitation Hospitals improves patient access to high quality rehabilitation care
@@ -75,7 +49,7 @@
             </blockquote>
         </div>
         <div class="card">
-            <img class="card-img-top img-fluid" src="../../person.JPG" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="../../person.jpg" alt="Card image cap">
             <div class="card-body">
             <h4 class="card-title">Physicians & Community Practices</h4>
             <p class="card-text">Family Practice Associates stays competitive – and independent – with strong financial performance
@@ -102,7 +76,7 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img img-fluid" src="../../home-office.JPG" alt="Card image">
+            <img class="card-img img-fluid" src="../../home-office.jpg" alt="Card image">
         </div>
         <div class="card p-3 text-right">
             <blockquote class="card-bodyquote">
@@ -126,3 +100,29 @@
             </div>
         </div>
         </div>
+        <p class="font-weight-bold m-b-0">Example of a Card with Navigation Links</p>
+
+<br> <br>
+  <div class="card ">
+      <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+              <a class="nav-link active" [routerLink]="['/Form']" routerLinkActive="active">Forms</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"  [routerLink]="['/Table']" routerLinkActive="active">Tables</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/ListGroups']" routerLinkActive="active">Lists</a>
+          </li>
+          </ul>
+      </div>
+      <div class="card-body">
+          <h4 class="card-title">
+               Giving back, to our community and to our world</h4>
+          <p class="card-text text-dark">Our goal is to consistently raise awareness about issues across the globe. To that end, we give our team the tools and time to make a significant impact on causes close to their hearts..</p>
+          <a [routerLink]="['/Cards']" class="btn btn-dark text-light">Read More</a>
+      </div>
+  </div>    
+    
+    <br><br>
