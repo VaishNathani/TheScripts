@@ -13,19 +13,24 @@ import { Bs4FormInputgroupComponent } from './bs4-form-inputgroup/bs4-form-input
 import { Bs4ListGroupsComponent } from './bs4-list-groups/bs4-list-groups.component';
 import { ErrorComponent } from './error.component';
 import { ComingSoonComponent } from './ComingSoon.component';
+import { JsWidgetsComponent } from './js-widgets/js-widgets.component';
+import { AccordianComponent } from './accordian/accordian.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 const appRoutes: Routes = [
   { path: 'App', component:  Bs4CardsComponent },
+  { path: 'JsWidgets', component:  JsWidgetsComponent },
+  { path: 'Accordian', component:  AccordianComponent },
   { path: 'Table',  component:  Bs4TableComponent},      
   { path: 'Form',   component:  Bs4FormComponent}, 
   { path: 'InlineForm',   component:  Bs4InlineFormComponent}, 
   { path: 'FormValidations',   component:  Bs4FormValidationsComponent},
   { path: 'FormInputGroup',   component:  Bs4FormInputgroupComponent},
   { path: 'Cards',   component:  Bs4CardsComponent},
-  { path: 'Grid',   component:  ComingSoonComponent}, 
+  { path: 'Grid',   component:  Bs4GridComponent}, 
   { path: 'ListGroups',   component:  Bs4ListGroupsComponent},  
-  { path: '',   redirectTo: '/Cards',  pathMatch: 'full' }
-
+  { path: 'ToolTips',   component:  TooltipsComponent}, 
+  { path: '',   redirectTo: '/Cards',  pathMatch: 'full' }   
 ];
 
 @NgModule({

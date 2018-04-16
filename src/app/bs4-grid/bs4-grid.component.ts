@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bs4-grid.component.css']
 })
 export class Bs4GridComponent implements OnInit {
-
+  pageTitle="Some Examples of Grids - Responsive, Equal Width. Stacked";
   constructor() { }
 
   ngOnInit() {

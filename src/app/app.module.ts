@@ -15,6 +15,9 @@ import { Bs4ListGroupsComponent } from './bs4-list-groups/bs4-list-groups.compon
 import { RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './error.component';
 import { ComingSoonComponent } from './ComingSoon.component';
+import { JsWidgetsComponent } from './js-widgets/js-widgets.component';
+import { AccordianComponent } from './accordian/accordian.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { ComingSoonComponent } from './ComingSoon.component';
     Bs4FormInputgroupComponent,
     Bs4ListGroupsComponent,
     ErrorComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    JsWidgetsComponent,
+    AccordianComponent,
+    TooltipsComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./bs4-cards.component.css']
 })
 export class Bs4CardsComponent implements OnInit {
- pageTitle = "Example of Cards";
+ pageTitle = "Some Examples of the Cards";
 
   constructor() { }
 
