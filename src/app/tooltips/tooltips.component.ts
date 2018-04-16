@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tooltips.component.css']
 })
 export class TooltipsComponent implements OnInit {
-
+  pageTitle="Examples of Tooltips";
   constructor() { }
 
   ngOnInit() {
